@@ -4,7 +4,7 @@
     "display_name": "Unit Database",
     "description": "View details on all PA units",
     "author": "Raevn",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "signature": "not yet implemented",
     "priority": 100,
     "enabled": true,
@@ -22,7 +22,7 @@
         ]
     },
     "date": "2014/09/27",
-    "build": "62908",
+    "build": "72908",
     "dependencies": [
         "com.pa.raevn.rblueprintinfoframework"
     ],
