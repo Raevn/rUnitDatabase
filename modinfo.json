@@ -1,0 +1,29 @@
+{
+    "context": "client",
+    "identifier": "com.pa.raevn.runitdatabase",
+    "display_name": "Unit Database",
+    "description": "View details on all PA units",
+    "author": "Raevn",
+    "version": "1.2.0",
+    "signature": "not yet implemented",
+    "priority": 100,
+    "enabled": true,
+    "id": "rUnitDatabase",
+    "forum": "https://forums.uberent.com/threads/wip-unit-database.56261/",
+    "category": [
+        "reference",
+        "ui"
+    ],
+    "scenes": {
+        "start": [
+            "coui://ui/mods/rUnitDatabase/rUnitDatabase_start.js",
+            "coui://ui/mods/rUnitDatabase/rUnitDatabase.css",
+            "coui://ui/mods/rUnitDatabase/pretty-json.css"
+        ]
+    },
+    "requires": [
+        "rBlueprintInfoFramework"
+    ],
+    "date": "2014/03/03",
+    "build": "62168"
+}
