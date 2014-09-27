@@ -118,6 +118,13 @@
 	height: 32px;
 }
 
+.img_build_unit {
+    height: 48px;
+    width: 48px;
+    display:block;
+    margin: 2px auto 0px;
+}
+
 .img_build_unitSI {
 	position: absolute;
 	padding-left: 24px;

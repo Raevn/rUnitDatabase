@@ -269,6 +269,6 @@ model.ud.showUnitInfo = ko.computed(function() {return model.ud.selectedUnitBlue
 model.ud.showUnitInfoRaw = ko.observable(false);
 model.ud.showTypeInfo = ko.computed(function() {return model.ud.selectedType() != null });
 
-$('#navigation_items a:nth-child(5)').after('<a href="#" class="nav_item" data-bind="css: {nav_item_disabled: !model.BIFReady()}, click: function () { if (model.BIFReady()) {model.ud.showUnitDatabase(!model.ud.showUnitDatabase())}}, click_sound: \'default\', rollover_sound: \'default\'"><span class="nav_item_text" data-bind="css: {nav_item_text_disabled: !model.BIFReady()}">UNIT DATABASE<img style="float:right; margin-top: -12px;" data-bind="visible: !model.BIFReady() && !model.showingEULA()" src="coui://ui/mods/rBlueprintInfoFramework/img/loading.gif"></span></a>');
+$('#navigation_items a:nth-child(5)').after('<a href="#" class="nav_item" data-bind="css: {nav_item_disabled: !model.BIFReady()}, click: function () { if (model.BIFReady()) {model.ud.showUnitDatabase(!model.ud.showUnitDatabase())}}, click_sound: \'default\', rollover_sound: \'default\'"><span class="nav_item_text" data-bind="css: {nav_item_text_disabled: !model.BIFReady()}">UNIT DATABASE<img style="float:right; margin-top: -12px;" data-bind="visible: !model.BIFReady()" src="coui://ui/mods/rBlueprintInfoFramework/img/loading.gif"></span></a>');
 
 $.get("coui://ui/mods/rUnitDatabase/rUnitDatabase.html", function (data) {$("body").append(data); ko.applyBindings(model, document.getElementById("unitDatabase"));});
