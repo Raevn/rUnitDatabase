@@ -6,7 +6,6 @@
 // Version 1.2.0 (2014/03/03)
 //------------------------------
 
-loadScript("coui://ui/mods/rUnitDatabase/underscore-min.js");
 loadScript("coui://ui/mods/rUnitDatabase/backbone-min.js");
 loadScript("coui://ui/mods/rUnitDatabase/pretty-json-min.js");
 

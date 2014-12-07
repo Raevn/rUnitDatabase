@@ -4,7 +4,7 @@
     "display_name": "Unit Database",
     "description": "View details on all PA units",
     "author": "Raevn",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "signature": "not yet implemented",
     "priority": 100,
     "enabled": true,
@@ -21,8 +21,8 @@
             "coui://ui/mods/rUnitDatabase/pretty-json.css"
         ]
     },
-    "date": "2014/09/27",
-    "build": "72908",
+    "date": "2014/12/07",
+    "build": "75740",
     "dependencies": [
         "com.pa.raevn.rblueprintinfoframework"
     ],
