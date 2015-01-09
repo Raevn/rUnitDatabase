@@ -4,7 +4,7 @@
     "display_name": "Unit Database",
     "description": "View details on all PA units",
     "author": "Raevn",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "signature": "not yet implemented",
     "priority": 100,
     "enabled": true,
@@ -21,11 +21,9 @@
             "coui://ui/mods/rUnitDatabase/pretty-json.css"
         ]
     },
-    "date": "2014/12/07",
-    "build": "75740",
+    "date": "2015/01/09",
+    "build": "76557",
     "dependencies": [
         "com.pa.raevn.rblueprintinfoframework"
-    ],
-    "content_id": "com.pa.raevn.runitdatabase",
-    "store_id": "com.pahub.content.store.mod.client"
+    ]
 }
